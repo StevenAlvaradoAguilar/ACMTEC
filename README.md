@@ -1,1 +1,1 @@
-# Administraci-n-de-proyectos-y-Dise-o-de-Software-
+# Administración-de-proyectos-y-Diseño-de-Software-
