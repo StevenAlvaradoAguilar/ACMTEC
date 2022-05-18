@@ -1,6 +1,17 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-import logo from "../assets/Logo.png";
+// Imagenes de los logos
+import Container from "react-bootstrap/Container"
+import logo from "../images/Logo.png";
+import monitoring from "../images/monitoring.png"
+import news from "../images/newspaper-folded.png"
+import therm from "../images/thermometer.png"
+import air from "../images/air-pollution.png"
+import info from "../images/information.png"
+import { Button } from "@material-ui/core";
+
+
+
 
 const navbar = () => {
   return (
@@ -16,7 +27,7 @@ const navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                          <Link className="nav-link" to='/'>Home</Link>
+                          <Link className="nav-link" to='/home'>Home</Link>
                         </li>
                         <li className="nav-item">
                           <Link className="nav-link" to='/information'>Information</Link>

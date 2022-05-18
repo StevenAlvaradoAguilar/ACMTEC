@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from "styled-components";
-import avatarImage from "../assets/avatarImage.jpeg";
-import avatarImage1 from "../assets/Foto-perfil.jpg";
-import avatarImage2 from "../assets/avatarImage.jpeg";
-import avatarImage3 from "../assets/avatarImage.jpeg";
+import avatarImage from "../images/avatarImage.jpeg";
+import avatarImage1 from "../images/Foto-perfil.jpg";
+import avatarImage2 from "../images/avatarImage.jpeg";
+import avatarImage3 from "../images/avatarImage.jpeg";
 
 const About = () => {
   return (
