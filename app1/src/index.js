@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import { BrowserRouter } from 'react-router-dom';
 // initialized i18next instance
 import i18next from 'i18next'; 
 import { initReactI18next } from 'react-i18next'; 
@@ -28,6 +27,8 @@ i18next.use(initReactI18next)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <initReactI18next i18n={i18next}>
+      <App />
+    </initReactI18next>
   </React.StrictMode>
 );
