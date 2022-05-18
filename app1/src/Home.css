@@ -1,0 +1,42 @@
+.PaginaPrincipal{
+  min-height: 100vh;
+  justify-content: space-around;
+  height: 100vh;
+  background: lightgray;
+ margin: auto;
+}
+@media only screen and (min-width: 1024px) {
+  .container header .header-nav-area #nav_container  {
+    display:flex;
+  }
+}
+.tweet{
+  border: 2px solid black;
+  height: 300px;
+  width: 300px;
+  background-color: aliceblue;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center; 
+}
+
+.red{
+  color: red ;
+  font-size: large;
+}
+
+.barra-principal{
+  background-color: purple;
+  align-content : left;
+  margin: 0%;
+}
+
+.search{
+  background-color: lightslategray;
+  padding: 10px;
+}
+.prueba{
+  color: blueviolet;
+  margin-left: 30%;
+  font-size: 30px;
+}
