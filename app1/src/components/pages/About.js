@@ -1,28 +1,36 @@
 import React from 'react'
 import styled from "styled-components";
+
 import avatarImage from "../images/avatarImage.jpeg";
 import avatarImage1 from "../images/Foto-perfil.jpg";
 import avatarImage2 from "../images/avatarImage.jpeg";
 import avatarImage3 from "../images/avatarImage.jpeg";
 
+import { useTranslation } from "react-i18next";
+
 const About = () => {
+
+  const { t, i18n } = useTranslation("es");
+
   return (
     <Section id= "about">
+      <br /><br />
+      <button onClick={() => i18n.changeLanguage("es")}>ES</button>
+      <button onClick={() => i18n.changeLanguage("en")}>EN</button>
       <div className="title">
-        <h1>Sobre nosotros</h1>
-        <h2>sd</h2>
+        <h1>{t("about.About-us")}</h1>
       </div>
       {/* Perfil de Johan */}
        <div className="about">
         <div className="about">
           <p>
-          Developed the front end of the web site using React
+          {t("about.Develop")}
           </p>
           <div className="info">
             <img src={avatarImage} alt="" />
             <div className="details">
               <h4>Johan Zamora Rojas</h4>
-              <span>Computer Engineer</span>
+              <span>{t("about.Career")}</span>
             </div>
           </div>
         </div>
@@ -31,13 +39,13 @@ const About = () => {
       <div className="about">
         <div className="about">
           <p>
-          Developed the front end of the web site using React
+          Desarrollador front-end de sitio web usando React
           </p>
           <div className="info">
             <img src={avatarImage1} alt="" />
             <div className="details">
               <h4>Steven Alvarado Aguilar</h4>
-              <span>Computer Engineer</span>
+              <span>Ingeniería en Computación</span>
             </div>
           </div>
         </div>
@@ -46,13 +54,13 @@ const About = () => {
       <div className="testimonials">
         <div className="testimonial">
           <p>
-          Developed the front end of the web site using React
+          Desarrollador front-end de sitio web usando React
           </p>
           <div className="info">
             <img src={avatarImage2} alt="" />
             <div className="details">
               <h4>Johan Zamora Rojas</h4>
-              <span>Computer Engineer</span>
+              <span>Ingeniería en Computación</span>
             </div>
           </div>
         </div>
@@ -61,13 +69,13 @@ const About = () => {
       <div className="testimonials">
         <div className="testimonial">
           <p>
-          Developed the front end of the web site using React
+          Desarrollador front-end de sitio web usando React
           </p>
           <div className="info">
             <img src={avatarImage3} alt="" />
             <div className="details">
               <h4>Johan Zamora Rojas</h4>
-              <span>Computer Engineer</span>
+              <span>Ingeniería en Computación</span>
             </div>
           </div>
         </div>

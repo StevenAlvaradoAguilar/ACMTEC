@@ -1,9 +1,12 @@
 import React from 'react'
+import Carrusel from '../navigates/Carrusel'
+
+import { useTranslation } from "react-i18next";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Esta es la página principal</h1>    
+    <div className='home'>
+      <Carrusel />   
     </div>
   )
 }

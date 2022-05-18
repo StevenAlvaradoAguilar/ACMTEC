@@ -1,9 +1,9 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel'
-import img1 from './images/polution-banner.jpg'
-import img2 from './images/polution-banner(2).jpg'
-import img3 from './images/polution-banner(3).jpg'
-import img4 from './images/polution-banner(4).jpg'
+import img1 from '../images/polution-banner.jpg'
+import img2 from '../images/polution-banner(2).jpg'
+import img3 from '../images/polution-banner(3).jpg'
+import img4 from '../images/polution-banner(4).jpg'
 function Carrusel(){
     return(
         <div style={{ display: 'block', width: 750, padding: 20 ,marginLeft:"20%"}}>

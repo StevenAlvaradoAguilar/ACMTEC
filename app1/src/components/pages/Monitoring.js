@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 
+import { useTranslation } from "react-i18next";
+
 function Monitoring(){
     const [data,setdata]= useState([]) 
     const [url,setUrl] = useState('')
@@ -59,4 +61,5 @@ function Monitoring(){
         </div>
     );
 }
+
 export default Monitoring;
