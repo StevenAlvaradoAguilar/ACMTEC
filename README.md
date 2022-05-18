@@ -1,1 +1,1 @@
-# Administración-de-proyectos-y-Diseño-de-Software-
+# Curso de Diseño de Software
