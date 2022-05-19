@@ -1,16 +1,18 @@
 import Home from "./components/Home"
 import About from "./components/About";
-import Navbar from "./components/common/Navbar";
-import Map from "./components/Map";
 import { Route, Routes } from "react-router-dom";
+import Information from "./components/common/Information";
+import Monitoring from "./components/Monitoring";
+import React, { useEffect } from "react";
+
 
 function App() {
   return (
     <Routes className="App">
         <Route path="/" element={<Home />} />
-        <Route path="/monitoring" element={<Home />} />
-        <Route path="/information" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/Monitoring" element={<Monitoring />} />
+        <Route path="/Information" element={<Information />} />
+        <Route path="/About" element={<About />} />
     </Routes>
   );
 }
